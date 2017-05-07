@@ -66,7 +66,7 @@ def create_csv(r_csv):
 
 
 def main():
-    k = open('treasure.txt', 'r')
+    k = open('api_key.txt, 'r')
     key = k.readline()
     tgt = raw_input("tgt ip: ")
     r_name = "report_" + tgt
